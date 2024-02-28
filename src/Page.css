@@ -1,0 +1,131 @@
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+  
+.header-content {
+    padding: 20px;
+}
+
+.img1 {
+    height: 100px;
+    max-width: 100%;
+}
+
+.img3 {
+    height: auto;
+    max-width: 100%;
+}
+
+.img4 {
+    height: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .stl {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .img1 {
+        height: 700px;
+        width: 100%;
+        max-width: 350px;
+        margin-top: 200px;
+    }
+
+    .img4 {
+        width: 100%;
+        max-width: 750px;
+        height: auto;
+    }
+
+    .img3 {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .img1 {
+        height: auto;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .stl {
+        flex-direction: column;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
+
+    .img1 {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px; 
+    }
+
+    .para1 {
+        font-size: 14px; 
+        text-align: justify;
+        margin: 10px 0; 
+    }
+}
+
+.background-footer {
+    background-color: red;
+    color:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.background-footer> div i {
+    margin-right: 10px; 
+    font-size: 24px; 
+}
+
+@media (max-width: 767px) {
+    .background-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .background-footer > div {
+        margin-bottom: 10px; 
+    }
+}
+
+.red-hr {
+    border: none; 
+    border-top: 4px solid rgb(248, 5, 5);
+    margin: 20px 0; 
+}
+.page{
+    background: rgb(255,248,170);
+background: linear-gradient(0deg, rgba(255,248,170,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+@media (max-width: 767px) {
+    .img1 {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px; 
+    }
+  
+    .header-content {
+      text-align: center;
+    }
+  
+    .para1 {
+      font-size: 14px; 
+      text-align: justify;
+      margin: 10px 0; 
+    }
+  }
